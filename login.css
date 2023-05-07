@@ -1,0 +1,178 @@
+.login-header{
+    font-size:18px !important;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.apple-btn{
+    background-color: #fff !important;
+    color:#000 !important;
+}
+
+.google-btn{
+    background-color: red !important;
+}
+
+.ph-btn{
+    background-color:white !important;
+    color: #000 !important;
+    border: 1px solid black !important;
+}
+label{
+    display:block;
+    text-align: left;
+}
+
+input{
+    width:80%;
+    padding: 12px 35px;
+    font-size: 14px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.sign-up-btn{
+    margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color:#fff;
+    padding-bottom: 90px;
+    background-color:#1D1D1D;
+}
+
+#brand-image{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#brand-image img{
+    height: 100px;
+}
+
+.horizontal-line{
+    border: 1px solid #16f70f;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.form-wrapper{
+    width:30%;
+    margin: auto;
+    text-align: center;
+}
+.form-wrapper h1{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 15px 32px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color:#0f2450;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.form-wrapper button:hover{
+    background-color:#234794;
+}
+.form-wrapper button i{
+    margin-right: 10px;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+}
+.divider div{
+    background-color: rgb(149, 233, 13);
+    height: 1px;
+    width: 100%;
+    margin: 14px;
+    margin-top: 30px;
+}
+form{
+    padding: 20px;
+    text-align: left;
+}
+form label{
+    display: block;
+    font-size: 16px;
+}
+form input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid rgb(149, 233, 13);
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+input:focus{
+    outline: none;
+}
+.gender-container{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+}
+.gender{
+    display: inline-block;
+    width:auto;
+    margin: 0; 
+    margin-right: 3px;
+}
+
+.gender-radio{
+    width: auto;
+    display: inline-block;
+    padding: 0;
+}
+
+.sign-up-btn{
+    width:100% !important;
+    background-color: rgb(78, 151, 73) !important;
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(107, 206, 100) !important;
+}
+
+.signUp-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .signUp-link p{
+    color: #fff;
+  }
+  
+  .signUp-link p a{
+    color: #f4157e;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signUp-link p a:hover{
+    text-decoration: underline;
+  }

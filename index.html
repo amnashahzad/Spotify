@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel = "icon" href = 
+"covers/Spotify_icon.svg.png" 
+        type = "image/x-icon">
+        <script src="app.js"></script>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <a href="#">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+      </a>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fa-home"></span>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="Search.html">
+            <span class="fa fa-search"></span>
+            <span>Search</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-book"></span>
+            <span onclick="msgalert()">Your Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fas fa-plus-square"></span>
+            <span onclick="msgalert()">Create Playlist</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-heart"></span>
+            <span onclick="msgalert()">Liked Songs</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="policies">
+      <ul>
+        <li>
+          <a href="#" onclick="msgalert()">Cookies</a>
+        </li>
+        <li>
+          <a href="#" onclick="msgalert()">Privacy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <div class="topbar">
+            <div class="side-btn">
+                <div>
+                    <i class="fas fa-chevron-left arrow"></i>
+                </div>
+                <div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+</div>
+
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#">Premium</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+          <li>
+            <a href="#">Download</a>
+          </li>
+          <li class="divider">|</li>
+          <li>
+            <a href="abc.html">Sign Up</a>
+          </li>
+        </ul>
+        <button type="button"><a href="app.html" style="text-decoration: none; color: white;">Log In</a></button>
+      </div>
+    </div>
+  <!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+
+    <section class="charts category" style="text-align: center;">
+      <div class="section-header-wrapper">
+          <h1 class="section-header">
+              Music
+          </h1>
+      </div>
+      
+      <div class="songs-cards-wrapper">
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZEVXbLZ52XmnySJg"class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              India top 50
+                          </h1>
+                          <p class="song-card-description">
+                              Your daily update of the most played tracks in ...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+              
+
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              India top 50
+                          </h1>
+                          <p class="song-card-description">
+                              Your daily update of the most played tracks righ...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+
+
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX0ieekvzt1Ic" class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://i.scdn.co/image/ab67706f000000024e1d65f8004017da8de702e3" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              India top 50
+                          </h1>
+                          <p class="song-card-description">
+                              The hottest tracks in India. Cover: Olivia...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+
+
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUfTFmNBRM" class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://i.scdn.co/image/ab67706f00000002f185916a4a0a737d2ac0dc2c" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              Hot Hits India
+                          </h1>
+                          <p class="song-card-description">
+                              Tune into the hottest Hindi songs. Cover- Ne...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+
+
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX1i3hvzHpcQV" class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://i.scdn.co/image/ab67706f000000027f7859b084bbe3f98a5315ba" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              Top Hits - Tamil
+                          </h1>
+                          <p class="song-card-description">
+                              Catch the top hits from Kollywood!
+                              Cover :...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+
+
+              <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX6XE7HRLM75P" class="song-card-link">
+                  <div class="song-card">
+                      <div class="song-img-container">
+                          <div class="song-img">
+                              <img src="https://i.scdn.co/image/ab67706f00000002b5dc84d63e436eba3de270b8" alt="" class="song-thumbnail">
+                          </div>
+                          <div class="song-play">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h1 class="song-card-title">
+                              Top Hits - Telugu
+                          </h1>
+                          <p class="song-card-description">
+                              Tune in to the Top Tracks from Tollywood!
+                              Cover :...
+                          </p>
+                      </div>
+                  </div>
+              </a>
+      </div>
+  </section>
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+
+  <section class="mood category" style="text-align: center;">
+      <div class="section-header-wrapper">
+          <h1 class="section-header">
+              mood
+              <p>Playlists to match your mood</p>
+          </h1>
+      </div>
+      
+      <div class="songs-cards-wrapper">
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002aa93fe4e8c2d24fc62556cba" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Mood Boster
+                      </h1>
+                      <p class="song-card-description">
+                          Get happy with today's dose of feel-good songs!
+                      </p>
+                  </div>
+              </div>
+          </a>
+          
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX9XIFQuFvzM4" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f0000000213a02d059c0479e65a850267" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Feelin' Good
+                      </h1>
+                      <p class="song-card-description">
+                          Feel good with this positively timeless...
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX2pSTOxoPbx9" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002a6e2870c97bde5e2719c20b8" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          dark & stormy
+                      </h1>
+                      <p class="song-card-description">
+                          Beautifully dark, dramatic tracks.
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX2pSTOxoPbx9" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002f4a302bc2e3d492b01c2dcd5" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          feel good piano
+                      </h1>
+                      <p class="song-card-description">
+                          Positive piano music.
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DWX83CujKHHOn" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f0000000265af49474d91827160b56b27" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Alone Again
+                      </h1>
+                      <p class="song-card-description">
+                          Being alone (again) can be tough, but these son...
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRoSdA634" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002f5e3bf0413ec122f118e5f08" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Life Sucks
+                      </h1>
+                      <p class="song-card-description">
+                          Feeling like everything just plain sucks? We've...
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+      </div>
+  </section>
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+  <section class="focus category" style="text-align: center;">
+      <div class="section-header-wrapper">
+          <h1 class="section-header">
+              focus
+              <p>Music to help you concentrate.</p>
+          </h1>
+      </div>
+      
+      <div class="songs-cards-wrapper">
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX8CY8acFrxZW" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002171e11f3b3e04fa764b2102b" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Meditazione
+                      </h1>
+                      <p class="song-card-description">
+                          Entra in contatto con la tua pace interiore.
+                      </p>
+                  </div>
+              </div>
+          </a>
+          
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          peaceful piano
+                      </h1>
+                      <p class="song-card-description">
+                          Relax and indulge with beautiful piano pieces
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DXbA4Uw2yEsP9" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002a0981064b7b73a3475c32d5a" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          massima concentra...
+                      </h1>
+                      <p class="song-card-description">
+                          Per quei momenti in cui non sono...
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002c414e7daf34690c9f983f76e" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          lo-fi beats
+                      </h1>
+                      <p class="song-card-description">
+                          Beats to relax, study and focus.
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DX8NTLI2TtZa6" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f0000000218e20d8d2bc7aa007d305e57" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          intense studying
+                      </h1>
+                      <p class="song-card-description">
+                          Focus-enhancing piano for your study session.
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002e4eadd417a05b2546e866934" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          deep focus
+                      </h1>
+                      <p class="song-card-description">
+                          Keep calm and focus with ambient and post-rock music.
+                      </p>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </section>
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+  
+  <section class="popular category" style="text-align: center;">
+      <div class="section-header-wrapper">
+          <h1 class="section-header">
+              popular new releases
+          </h1>
+      </div>
+      
+      <div class="songs-cards-wrapper">
+          <a href="https://open.spotify.com/embed/playlist/37i9dQZF1DWXJfnUiYjUKT" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67706f00000002146ffe86303ede6e3c4450dc" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          new music friday
+                      </h1>
+                      <p class="song-card-description">
+                          The very best in new music from around...
+                      </p>
+                  </div>
+              </div>
+          </a>
+          
+
+          <a href="https://open.spotify.com/embed/album/4hR7jjsPvRwwcHx8ntJSQS?si=mVX535O6S4S0fZyRak6Wkw" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67616d0000b273572c68f79b356c21202e248c" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          holy
+                      </h1>
+                      <p class="song-card-description">
+                          Justin Bieber, Chance the Rapper
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/album/2IAyprsfyoPBGDvbLjgsN5?si=jz2tmILYQ0uOX-OViqHWIg" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67616d0000b273f207514228c0a5db1ae3b116" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          Diamonds
+                      </h1>
+                      <p class="song-card-description">
+                          Sam Smith
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/album/7rb98RQrdw6Oi2RAt38hIB?si=gql8okBZT8KjDaI-DXfJbg" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67616d0000b27323d1128dbd11f83515eebe36" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          high & dry
+                      </h1>
+                      <p class="song-card-description">
+                          G. V. Prakash,
+                          Julia Gartha
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/album/6t95dMgjNYMtwXTKlISI42?si=vPQUOIEmRL261OhV8xSfCA" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67616d0000b2738fc0ee2f829a7138af579c97" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          hot stuff
+                      </h1>
+                      <p class="song-card-description">
+                          Kygo, Donna Summer
+                      </p>
+                  </div>
+              </div>
+          </a>
+
+
+          <a href="https://open.spotify.com/embed/album/2fenSS68JI1h4Fo296JfGr?si=9L6OyaqBQ2aeKVQwiZCWIw" class="song-card-link">
+              <div class="song-card">
+                  <div class="song-img-container">
+                      <div class="song-img">
+                          <img src="https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc" alt="" class="song-thumbnail">
+                      </div>
+                      <div class="song-play">
+                          <i class="fas fa-play"></i>
+                      </div>
+                  </div>
+                  <div class="card-content">
+                      <h1 class="song-card-title">
+                          folklore
+                      </h1>
+                      <p class="song-card-description">
+                          Taylor Swift
+                      </p>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </section>
+
+
+
+  <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" class="playlist" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+      <hr>
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer style="margin-left: 210px; text-decoration: none;">
+        <div class="container">
+          <div class="item1" >
+             <ul>
+                  <li> <img src="Spotify_Logo_CMYK_Green.png" class="logo"></li>
+
+             </ul>
+          
+          </div>
+          <div class="item2">
+              <ul>
+                  <li class="first"> Company</li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">For the record</a></li>
+             </ul>
+
+          </div>
+          <div class="item3"> <ul>
+              <li class="first"> Communities</li>
+              <li><a href="#">For Artists</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Advertising </a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Vendors</a></li>
+         </ul></div>
+          <div class="item4"> <ul>
+              <li class="first"> Useful Links</li> 
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Web Player</a></li>
+              <li><a href="#">Free Mobile App</a></li>
+              <li><a href="#">Car Thing</a></li>
+
+
+         </ul></div>
+          <!-- <div class="item5"> <ul> -->
+            <div class="col-lg-3 item social">
+              <a href="https://www.facebook.com/profile.php?id=100074385363085"><i class="icon ion-social-facebook"></i></a>
+              <a href="https://twitter.com/home"><i class="icon ion-social-twitter"></i></a>
+              <a href="https://github.com/amnashahzad"><i class="icon ion-social-github"></i></a>
+          </div>
+    </div>
+      </footer>
+    </div>
+  </div>
+<script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

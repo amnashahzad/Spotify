@@ -1,0 +1,103 @@
+* {
+    font-family: Montserrat;
+    color: #fff;
+  }
+  
+  body{
+    background: rgba(0, 205, 89,1);
+    background: linear-gradient(90deg, rgba(0, 200, 89, 0.8) 0%, rgba(0, 200, 112, 0.8) 57%, rgba(0, 200, 144, 1) 100%);
+  }
+  
+  @media screen and (max-width: 480px) {
+    * {
+      overflow-x: hidden;
+    }
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .main-section {
+    margin: 30px auto;
+    height: 90vh;
+  }
+  
+  .detail-section {
+    background: rgb(0, 205, 89);
+    background: linear-gradient(90deg, rgba(0, 205, 89, 1) 0%, rgba(0, 205, 112, 1) 57%, rgba(0, 205, 144, 1) 100%);
+  }
+  
+  .form-section {
+    background: rgb(38, 50, 56);
+    background: linear-gradient(90deg, rgba(38, 50, 56, 1) 0%, rgba(38, 50, 64, 1) 50%, rgba(38, 50, 66, 1) 100%);
+  }
+  
+  .information {
+    margin: 90px 45px;
+  }
+  
+  .form-conatiner {
+    margin: 70px 45px;
+  }
+  
+  .heading__h2 {
+    font-weight: 700;
+  }
+  
+  .heading__h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  
+  .little-info {
+    margin: 20px 50px 8px 50px;
+  }
+  
+  .heading__h2__1 {
+    font-weight: 700;
+    font-size: 1.4em;
+  }
+  
+  .little-info li {
+    margin: 16px 0;
+    font-weight: 500;
+  }
+  
+  .links__p {
+    font-size: 1.2em;
+  }
+  
+  .links__p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  label {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.07em;
+  }
+  
+  input[type=text] {
+    border: none;
+    margin: auto auto 24px auto;
+    min-width: 100%;
+    background: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .button {
+    border-radius: 16px;
+    padding: 4px 12px;
+    background: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    box-shadow: 0;
+    border: 0;
+    color: #41A5DD;
+  }
+  

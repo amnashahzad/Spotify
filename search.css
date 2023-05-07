@@ -1,0 +1,106 @@
+
+.topnav{
+    height: 70px;
+}
+.side-btn div.searchbox{
+    background-color: transparent;
+}
+
+.searchbox{
+    position: relative;
+    border:none;
+
+}
+.searchbox input{
+    width:300px;
+    margin-left: 20px;
+    padding: 10px 12px;
+    padding-left: 45px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.searchbox input:focus{
+    outline: none;
+}
+
+.searchbox input:focus .search{
+    display: none;
+}
+.search{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    color: rgb(58, 57, 57);
+}
+
+.genre{
+    margin-top: 70px;
+}
+.genre-card-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    padding:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.genre-card{
+    width:calc(16% - 20px);
+    min-width: calc(16% - 20px);
+    height: 170px;
+    padding-right: 5px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    background-color: orange;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition:  0.7s ease;
+}
+.genre-card:hover{
+    transform:scale(1.15);
+}
+
+.genre-card h1{
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 21px;
+    top: 10px;
+    left: 23px;
+}
+
+.genre-card img{
+    position: absolute;
+    transform: rotate(25deg) translate(18%,-2%);
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.genre-card:nth-child(1n) {  
+    background-image: linear-gradient(to left top, #b73000, #c43504, #d23b09, #df400f, #ed4615);  
+}
+
+.genre-card:nth-child(2n) {  
+    background-image: linear-gradient(to left top, #0000a3, #0e09a8, #1812ac, #1f19b1, #261fb5);
+}
+
+.genre-card:nth-child(3n) {  
+    background-image: linear-gradient(to left top, #0e5300, #13680f, #167f20, #159631, #0aae43);
+}
+
+.genre-card:nth-child(4n) {  
+    background-image: linear-gradient(to left top, #03399d, #2242b3, #384bc9, #4e54e0, #635df6);
+}
+
+.genre-card:nth-child(5n) {  
+    background-image: linear-gradient(to left top, #6f7a00, #7d8700, #8c9500, #9ba300, #aab100);
+}
